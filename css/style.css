@@ -158,8 +158,6 @@ h4 {
   line-height: 1.2em;
   display: block;
   padding-bottom: 10px;
-  border-right: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
 }
 .third-header {
   color: var(--black);
@@ -246,8 +244,7 @@ h4 {
 }
 .feature {
   display: flex;
-  align-items: center;
-  padding-top: 94px;
+
   padding-bottom: 0px;
   justify-content: space-between;
 }
@@ -315,7 +312,6 @@ h4 {
 }
 .card-portfolio {
   width: 370px;
-  height: 404px;
   margin-bottom: 30px;
 }
 .projects-name {
@@ -324,6 +320,8 @@ h4 {
   font-size: 18px;
   line-height: 2;
   padding-left: 24px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 .projects-type {
   color: var(--grey);
